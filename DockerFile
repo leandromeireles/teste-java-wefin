@@ -1,0 +1,4 @@
+FROM openjdk:11-jdk-alpine
+MAINTAINER br.com.wefin
+COPY target/teste-java-wefin-1.0.0.jar teste-java-wefin-1.0.0.jar
+ENTRYPOINT ["java","-jar","/teste-java-wefin-1.0.0.jar"]

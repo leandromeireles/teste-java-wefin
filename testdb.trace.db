@@ -1,0 +1,20 @@
+2022-11-07 20:57:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PERSON \000d\000a\000d\000adrop [*]table cpf"; SQL statement:
+SELECT * FROM PERSON 
+
+drop table cpf [42000-214]
+2022-11-07 20:57:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PERSON \000d\000a\000d\000adrop [*]table CPF"; SQL statement:
+SELECT * FROM PERSON 
+
+drop table CPF [42000-214]
+2022-11-07 20:58:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PERSON \000d\000a\000d\000adelete [*]table CPF"; SQL statement:
+SELECT * FROM PERSON 
+
+delete table CPF [42000-214]
+2022-11-07 20:58:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PERSON \000d\000a\000d\000adrop [*]table CPF"; SQL statement:
+SELECT * FROM PERSON 
+
+drop table CPF [42000-214]
