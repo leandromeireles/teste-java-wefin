@@ -6,6 +6,14 @@
 - How to define Data Models and association for Authentication and Authorization
 - Way to use Spring Data JPA to interact with H2 Database
 
+
+## Access Swagger
+- http://localhost:8080/swagger-ui/index.html#/
+
+![spring-boot-security-login-jwt-flow](swagger.png)
+
+
+
 ## User Registration, Login and Authorization process.
 
 ![spring-boot-security-login-jwt-flow](spring-boot-security-login-jwt-flow.png)
